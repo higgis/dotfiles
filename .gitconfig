@@ -1,0 +1,19 @@
+[user]
+	name = higgis
+	email = jameshiggs@gmail.com
+[color]
+ diff = auto
+ status = auto
+ branch = auto
+[alias]
+ st = status
+ ci = commit
+ co = checkout 
+[diff]
+  tool = chdiff
+[difftool]
+  prompt = false
+[difftool "chdiff"]
+  cmd = /usr/bin/env chdiff $LOCAL $REMOTE
+[heroku]
+	account = personal
